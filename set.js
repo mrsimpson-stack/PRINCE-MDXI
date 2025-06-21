@@ -10,23 +10,23 @@ global.session = "https://session-id-2fza.onrender.com";
  
  
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
-SUDO_NUMBERS: process.env.SUDO_NUMBERS || "", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
+SESSION_ID: process.env.SESSION_ID || "PRINCE-MD~H4sIAAAAAAAAA5VUW5OiOBj9L3nFGrmJQlVXDSK2gK0o0thuzUOEAFGuSVBhyv++RV+m52F3tpenkKTOd77vnJOfoCgxRQ5qgfYTVARfIEP9krUVAhqYNnGMCBiACDIINCCbx+h0jKEZuGztnZth5T2LO6dZEV1pVPqMfEMdyfbGLMoHcB+AqjlmOPwDIIclMdhuzePJNqJRxzjbWEA5VHgcSXUDT/rlZqeB2Zm+/ADuPSLEBBeJWaUoRwRmDmpdiMnX6Cvri68LIz252mVppXx3CTZr05isFt6SxbPVprRSC/PEEK5fo3+S6quCFunCPk2ZPhWv0Lbk4OLzzH4hCS5tck3EPEidln+jT3FSoMiKUMEwa78892Y65hVzCgu1xp2frouRk3NpIil8Xie+S8jWjOeiNfH8ydeI7yvMVczdKueID2sBTv0ZTMfHZifKC0epTdWFJZ/so+Lm/07cJR9eOf+fuTdLeg5Z6En75jC+ofG+8+t1u6/tpR2bk2jRzLnt9rZIvYL/Gv3FiLejvVfY++oyub5wHCcy+5EGM2G42bjLxh4m3In63bizPulD1pA/sZy6J9oY9XaS0UtRF+7eOQULWw3azXa4vpj6vHrq2ljhNxPhRFvzNsKHbL0WLHgMh8/Gbmfkt7X5jNFmYhc3eTkZP5Xj5Prw2tEZtVYENOE+AAQlmDICGS6Lfk8c8QMAo4uHQoLY63jBIQisaL5Rq/NznEi7ZOK4ZRzm3AFNypmXxFE9OwjHRt7BzQMYgIqUIaIURQtMWUnaJ0QpTBAF2l8/BqBAN/YmXF9OEgYgxoQyv2iqrITRh6ofhzAMy6ZgXluERr9ABGj85zZiDBcJ7efYFJCEKb4gI4WMAi2GGUW/OkQERUBjpEG/UmuUUT94Z35QD4H0CAYgfxUER0AD4kgZjxRRUlVR1sTv9Nu1R4VV9a1ADAxA9naLV0VeFibiWJUlRdHE7/3+/Re/Hi5CDOKMAg0YTv6SDOnCdPeO9GQ9PupWohuJDj77+TDG2+BlWUiTA8+b04OBmrm6OubetcbHxJGCw+UojpPVy5O/QbA9P/wDCNBA0gXcmtqZJPLCKpS4idHJNSfyw1SayDEJ8Xyd3TYc3nv1juK5uZwL0yWZmZJ8y83b6GU/XxPfVojijg+XLsuSZR3pvYsGIEIXHKLfizkj68S3uTVzuaM/wurWG6ICXtgj7VZHyatKVVRWRuTPuuUKHcIDDkJxt6i3DrfzJpJORdNzLsGedM61pcNuxnmn5endsq+Ryd6fKvxqpl6p/jfG6DX5Bez1+0/l3nj3/uLvg98g3p+Sf4sjWq9eXh6j1VQPNgVJ410wOlOnzGWDCflRVBt5Fszm5iKnFbjffwxAlUEWlyQHGoBFREocgQEgZdMb1iri8g/FDJ23ppu3xjNImf4Zgh3OEWUwr4AmjEf8SBYUVX675ZKyWkCaAg1Iievb597RrV5VHoPsI1NA7z8zC8D9b2MdVMBvBwAA", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
+SUDO_NUMBERS: process.env.SUDO_NUMBERS || "256756239924", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
 ANTI_DELETE: process.env.ANTI_DELETE || "inboxonly", // can be set to inboxonly/allchats/true/false
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || "true",
 AUTO_LIKE_EMOJIS: process.env.AUTO_LIKE_EMOJIS || "💛,❤️,💜,🤍,💙", //Input Yours Custom...Can be one Emoji or Multiple Emojis Separated by Commas
-AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
+AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "true",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "✅️ Status Viewed by prince-mdx", // // Input Yours custom...
 MODE: process.env.MODE || "public", // Put private or public or inbox or groups
-OWNER_NUMBER: process.env.OWNER_NUMBER || "237677224245", // Only 1 owner Number Here, others Add to sudo numbers...
-OWNER_NAME: process.env.OWNER_NAME || "𝐏𝐑𝐈𝐍𝐂𝐄", // Input Yours custom...(Maintain font for Flow)
+OWNER_NUMBER: process.env.OWNER_NUMBER || "256756239924", // Only 1 owner Number Here, others Add to sudo numbers...
+OWNER_NAME: process.env.OWNER_NAME || "SIMPSON TECH", // Input Yours custom...(Maintain font for Flow)
 PACK_AUTHOR: process.env.PACK_AUTHOR || "𝐏𝐑𝐈𝐍𝐂𝐄 𝐓𝐄𝐂𝐇", // Added // Input Yours custom...
 PACK_NAME: process.env.PACK_NAME || "💙", // Added // Input Yours custom...
 PREFIX: process.env.PREFIX || ".",
 VERSION: process.env.VERSION || "3.0.0",
-ANTILINK: process.env.ANTILINK || "false", //  Enter true to kick automatically or delete to delete without kicking or warn to warn before kicking
-ANTICALL: process.env.ANTICALL || "false",
+ANTILINK: process.env.ANTILINK || "true", //  Enter true to kick automatically or delete to delete without kicking or warn to warn before kicking
+ANTICALL: process.env.ANTICALL || "true",
 ANTIBAD: process.env.ANTIBAD || "false",
 BAD_WORDS: process.env.BAD_WORDS || "fuck, pussy, anus, idiot", // Add Yours Separated by Comma(will be deleted if ANTIBAD is set to true)
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 📵 No Calls Allowed!_*",
@@ -37,7 +37,7 @@ AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
 AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘʀɪɴᴄᴇ ᴍᴅx ",
 CHAT_BOT: process.env.CHAT_BOT || "false", // Put value to true to enablle for all chats only or inbox to ebanle in pm chats only or groups to enable in groups only else false
-WELCOME: process.env.WELCOME || "false",
+WELCOME: process.env.WELCOME || "true",
 GOODBYE: process.env.GOODBYE || "false",    
 AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false", // Enter value to true for blueticking all messages, or commands for blueticking only commands else false
 AUTO_BLOCK: process.env.AUTO_BLOCK || "333,799", // Add Multiple Country Codes Separated by Comma...
